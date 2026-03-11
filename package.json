@@ -1,0 +1,21 @@
+{
+  "name": "elpdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^40.8.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^5.5.207"
+  }
+}
